@@ -1,0 +1,88 @@
+export const courses = [
+  {
+    id: 1,
+    title: 'Complete Web Development Bootcamp',
+    instructor: 'Sarah Johnson',
+    rating: 4.9,
+    price: 89.99,
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60',
+    category: 'Development',
+  },
+  {
+    id: 2,
+    title: 'UI/UX Design Masterclass',
+    instructor: 'Michael Chen',
+    rating: 4.8,
+    price: 79.99,
+    image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&auto=format&fit=crop&q=60',
+    category: 'Design',
+  },
+  {
+    id: 3,
+    title: 'Data Science with Python',
+    instructor: 'Emily Rodriguez',
+    rating: 4.7,
+    price: 94.99,
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=60',
+    category: 'Data Science',
+  },
+  {
+    id: 4,
+    title: 'Digital Marketing Strategy',
+    instructor: 'David Park',
+    rating: 4.6,
+    price: 69.99,
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=60',
+    category: 'Marketing',
+  },
+  {
+    id: 5,
+    title: 'Machine Learning A-Z',
+    instructor: 'Dr. Angela Yu',
+    rating: 4.9,
+    price: 99.99,
+    image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&auto=format&fit=crop&q=60',
+    category: 'AI & ML',
+  },
+  {
+    id: 6,
+    title: 'Financial Analysis Fundamentals',
+    instructor: 'Robert Wilson',
+    rating: 4.5,
+    price: 59.99,
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&auto=format&fit=crop&q=60',
+    category: 'Finance',
+  },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Jessica Lee',
+    role: 'Software Engineer at Google',
+    content: 'This platform completely transformed my career. The courses are well-structured and the instructors are world-class. I landed my dream job within 3 months of completing the Web Development Bootcamp.',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=60',
+  },
+  {
+    id: 2,
+    name: 'Marcus Thompson',
+    role: 'Product Designer at Spotify',
+    content: 'The UI/UX courses here are unmatched. I went from a complete beginner to a confident designer. The hands-on projects really helped me build a strong portfolio.',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=60',
+  },
+  {
+    id: 3,
+    name: 'Amanda Foster',
+    role: 'Data Analyst at Netflix',
+    content: 'I was able to switch careers from finance to data science thanks to the comprehensive Python and Machine Learning courses. Highly recommend for anyone looking to upskill.',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&auto=format&fit=crop&q=60',
+  },
+  {
+    id: 4,
+    name: 'James Carter',
+    role: 'Marketing Lead at Airbnb',
+    content: 'The digital marketing course gave me practical strategies that I implemented immediately. My team saw a 40% increase in engagement within the first month.',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&auto=format&fit=crop&q=60',
+  },
+];
+
